@@ -1,0 +1,38 @@
+@font-face
+{
+font-family: "Arcade";
+src: url('fonts/ARCADECLASSIC.TTF');    
+}
+
+@font-face
+{
+font-family: "Karmatic";
+src: url('fonts/ka1.ttf');    
+}
+
+@font-face
+{
+font-family: "Game Power";
+src: url('fonts/game_power.ttf');    
+}
+
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+    /* Set you're content font stack here: 
+    font-family: Georgia, Times, "Times New Roman", serif;*/
+}
+
+/* Apply the .box class on the immediate parent of any grid element (pure-u-*) to apply some padding. */
+.l-box {
+    padding: 1.3em;
+    background: #00aeef;
+}
+
+.footer{
+	background: black;
+    color: #666;
+    text-align: center;
+    padding: 1em;
+    font-size: 80%;
+}
