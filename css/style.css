@@ -25,8 +25,8 @@ body,
 
 /* Apply the .box class on the immediate parent of any grid element (pure-u-*) to apply some padding. */
 .l-box {
-    padding: 1.3em;
-    background: #00aeef;
+   padding-left: 2em;
+   background: #00aeef;
 }
 
 .footer{
@@ -35,4 +35,10 @@ body,
     text-align: center;
     padding: 1em;
     font-size: 80%;
+}
+
+.button-like
+{
+	background-color: #00aeef;
+    color: #000405;
 }
