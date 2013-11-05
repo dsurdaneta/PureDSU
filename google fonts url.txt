@@ -1,3 +1,5 @@
 http://www.google.com/fonts#UsePlace:use/Collection:Share+Tech|Cousine:400,700,400italic,700italic|Press+Start+2P|Electrolize|VT323|Marvel:400,400italic,700,700italic|Aldrich
 
 http://www.google.com/fonts#UsePlace:use/Collection:Press+Start+2P|Electrolize
+
+menu icon in unicode: &#9776;
