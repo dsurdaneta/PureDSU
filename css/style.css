@@ -52,7 +52,11 @@ body,
 /****/
 
 .cyan-styled{color:#00aeef;}
+
  a .no-decoration{text-decoration:none;}
+ 
+ .press-start {font-family: 'Press Start 2P', cursive;}
+ .electrolize{ font-family: 'Electrolize', sans-serif; }
 
 /* Apply the .box class on the immediate parent of any grid element (pure-u-*) to apply some padding. */
 .l-box {
