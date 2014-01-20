@@ -42,3 +42,10 @@ body,
 	background-color: #00aeef;
     color: #000405;
 }
+
+/**Vertical align**/
+.v-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
