@@ -58,6 +58,19 @@ body,
  .press-start {font-family: 'Press Start 2P', cursive;}
  .electrolize{ font-family: 'Electrolize', sans-serif; }
  
+ .pure-menu-cyanish-bg{
+ 	color: #F5F5F5;
+background: #23c3ff;
+background: -moz-linear-gradient(top, #23c3ff 0%, #00afef 41%, #0081b2 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #23c3ff), color-stop(41%, #00afef), color-stop(100%, #0081b2));
+background: -webkit-linear-gradient(top, #23c3ff 0%, #00afef 41%, #0081b2 100%);
+background: -o-linear-gradient(top, #23c3ff 0%, #00afef 41%, #0081b2 100%);
+background: -ms-linear-gradient(top, #23c3ff 0%, #00afef 41%, #0081b2 100%);
+background: linear-gradient(to bottom, #23c3ff 0%, #00afef 41%, #0081b2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23c3ff', endColorstr='#0081b2', GradientType=0 );
+ }
+ 
+ .pad-top-10{padding-top:10%;}
  .img-logo{
  	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.5);
 	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.5);
@@ -150,4 +163,3 @@ body,
          -o-transform: rotate(135deg);
 }
 
-	
