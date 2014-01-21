@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
+        <title>DSU Developer</title>
+        <!--cyan: #00aeef-->
+        <!--google fonts-->
+        <link href='http://fonts.googleapis.com/css?family=Press+Start+2P|Electrolize' rel='stylesheet' type='text/css'>
+        
+        <!--CSS-->
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <!--<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/grids-min.css">-->
+        <link rel="stylesheet" href="css/pure-skin-dsudev.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        
+        <!-- Favicon and touch icons -->
+        <link rel="icon" href="dsu_favicon.ico">
+        
+        
+    </head>
+    <body>
+        
+        <div class="pure-skin-dsudev pure-g-r">
+            <div class="pure-u-1-3">
+                <div class="pure-hidden-phone pure-skin-dsudev pure-menu pure-menu-open pure-menu-horizontal electrolize">
+                    
+                </div>
+            </div>
+            <div class="pure-u-2-3">
+                <div class="pure-u-1-2"></div>
+                <div class="pure-u-1-2"></div>
+            </div>
+            
+        </div>
+        
+        <div class="footer electrolize">
+        <footer> footer test <a href="#"><i class="icon-2x icon-twitter cyan-styled no-decoration"></i> </a>
+              <a href="#"><i class="icon-2x icon-github cyan-styled no-decoration"></i> </a>
+              <a href="#"><i class="icon-2x icon-google-plus cyan-styled no-decoration"></i> </a>
+              gnu and/or creative commons license
+<!--            <div class="pure-skin-dsudev pure-g-r">
+                <div class=" pure-u-1-4"> &nbsp;</div>
+                <div class=" pure-u-1-2"> footer test</div>
+                <div class=" pure-u-1-4"> &nbsp;</div>
+        </div> -->
+        </footer>
+        </div>
+        <!--scripts-->
+        <script src="http://yui.yahooapis.com/3.12.0/build/yui/yui-min.js"></script>
+        <script>
+YUI({
+    classNamePrefix: 'pure'
+}).use('gallery-sm-menu', function (Y) {
+
+    var horizontalMenu = new Y.Menu({
+        container         : '#demo-horizontal-menu',
+        sourceNode        : '#std-menu-items',
+        orientation       : 'horizontal',
+        hideOnOutsideClick: false,
+        hideOnClick       : false
+    });
+
+    horizontalMenu.render();
+    horizontalMenu.show();
+
+});
+</script>
+    </body>
+    
+</html>
