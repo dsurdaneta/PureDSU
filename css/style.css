@@ -50,13 +50,42 @@ body,
         }
 
 /****/
-
+.fixed {position: fixed;}
 .cyan-styled{color:#00aeef;}
 
  a .no-decoration{text-decoration:none;}
  
  .press-start {font-family: 'Press Start 2P', cursive;}
  .electrolize{ font-family: 'Electrolize', sans-serif; }
+ 
+ .img-logo{
+ 	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.5);
+ 	
+ 	border-color:#CCCCCC;
+ 	border:3px solid;
+ 	
+ 	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+ }
+ 
+ .rotate-45{
+ 	-ms-transform:rotate(330deg); /* IE 9 */
+	  -moz-transform:rotate(330deg); /* Firefox */
+	  -webkit-transform:rotate(330deg); /* Safari and Chrome */
+	  -o-transform:rotate(330deg); /* Opera */
+ }
+ 
+ .menu-box{
+ 	width: 90%
+ 	min-height: 20px;
+ 	max-height: 50px;
+ 	/*background-color:#0E3D4E;*/
+ }
+
+.pad-left-10{padding-left:10%}
 
 /* Apply the .box class on the immediate parent of any grid element (pure-u-*) to apply some padding. */
 .l-box {
@@ -84,3 +113,41 @@ body,
   top: 50%;
   transform: translateY(-50%);
 }
+
+/**shapes**/
+
+.brand-cover-box{
+	height: 50px;
+	width: 0;
+	border-left: 100px solid green;
+	border-top: 100px solid green;
+	border-bottom: 60px solid transparent;
+}
+
+.burst-8 {
+    background:orange;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20eg);
+}
+
+.burst-8:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background: orange;
+    -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg);
+}
+
+	
